@@ -23,4 +23,4 @@ The portfolio is built with **HTML, CSS, and JavaScript** and designed in a clea
 - GitHub Pages (deployment)  
 
 ## 🔗 Live Demo
-👉 [View Portfolio Online](https://your-github-dlemik.github.io/portfolio/)
+👉 [View Portfolio Online](https://your-github-dlemik.github.io/myportfolio/)
