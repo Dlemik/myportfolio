@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Korkem Amangeldi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="nav"><div class="container nav-inner">
+    <div class="brand"><span class="tag">&lt;Dev /&gt;</span> Korkem Amangeldi</div>
+    <button class="menu-btn">Menu</button>
+    <ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li><li><a href="projects.html">Projects</a></li>
+      <li><a href="experience.html">Experience</a></li><li><a href="certificates.html">Certificates</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul></div></div>
+
+  <div class="section">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p class="lead reveal">I’m open to internships, freelance, and collaborative projects. Reach me anytime.</p>
+
+      <div class="cards reveal">
+        <div class="card">
+          <h3>Contacts</h3>
+          <p><strong>Phone:</strong> +7 747 175 74 41</p>
+          <p><strong>Email:</strong> <a href="mailto:korkem.amangeldi@jihc.edu.kz">korkem.amangeldi@jihc.edu.kz</a></p>
+          <p><a href="https://github.com/Dlemik" target="_blank" rel="noopener">GitHub</a> ·
+             <a href="https://www.linkedin.com/in/korkem-amangeldi-4a5109359/" target="_blank" rel="noopener">LinkedIn</a></p> <!-- filecite -->
+        </div>
+
+        <div class="card">
+          <h3>Quick Message</h3>
+          <form onsubmit="event.preventDefault(); this.reset(); alert('Thanks! Your message has been prepared. (In a real deploy, connect a form service or email.)');">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+              <input required placeholder="Your name" style="padding:12px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text)">
+              <input required type="email" placeholder="Email" style="padding:12px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text)">
+            </div>
+            <textarea required placeholder="Message" rows="5" style="margin-top:12px;width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text)"></textarea>
+            <button class="btn" style="margin-top:12px" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer"><div class="container">© 2025 Korkem Amangeldi</div></div>
+<script src="script.js"></script>
+</body></html>
